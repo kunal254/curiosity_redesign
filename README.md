@@ -39,11 +39,11 @@
 ### all courses :point_down:
 <kbd>![all courses](https://github.com/kunal254/curiosity_redesign/blob/main/screens/All%20Courses.png)</kbd>
 ### user profile :point_down:
-![user profile](https://github.com/kunal254/curiosity_redesign/blob/main/screens/user%20profile.png)
+<kbd>![user profile](https://github.com/kunal254/curiosity_redesign/blob/main/screens/user%20profile.png)</kbd>
 ### admin dashboard :point_down:
-![admin dashboard](https://github.com/kunal254/curiosity_redesign/blob/main/screens/Dashboard.png)
+<kbd>![admin dashboard](https://github.com/kunal254/curiosity_redesign/blob/main/screens/Dashboard.png)</kbd>
 ### responsive :see_no_evil:
-![responsive](https://github.com/kunal254/curiosity_redesign/blob/main/screens/IMG_20210711_205656.jpg)
+<kbd>![responsive](https://github.com/kunal254/curiosity_redesign/blob/main/screens/IMG_20210711_205656.jpg)</kbd>
 
 ## task left 
 * optimise home.js
