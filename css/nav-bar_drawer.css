@@ -1,0 +1,173 @@
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hamRotate.active {
+    transform: rotate(45deg);
+}
+
+.hamRotate180.active {
+    transform: rotate(180deg);
+}
+
+.line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+}
+
+.ham1 .top {
+    stroke-dasharray: 40 139;
+}
+
+.ham1 .bottom {
+    stroke-dasharray: 40 180;
+}
+
+.ham1.active .top {
+    stroke-dashoffset: -98px;
+}
+
+.ham1.active .bottom {
+    stroke-dashoffset: -138px;
+}
+
+/* ========
+      codepen copy paste hamburgur menu
+       ======== */
+:root{
+    --d_height:70px;
+    --m_height:60px;
+    --drawer_width: 60vw;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.section_title{
+    margin: 0;
+    padding: 1em;
+    font-size: 1.7em;
+    text-align: center;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0 0 10px black;
+    height: var(--d_height);
+}
+
+.nav_bar img {
+    display: block;
+    height: var(--d_height);
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav_bar li {
+    margin-left: 2em;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    font-size: 1.1em;
+}
+.nav_bar a:hover{
+    color: rgb(35, 219, 219);
+}
+
+.profile_img a {
+    display: block;
+}
+
+.profile_img img {
+    border-radius: 50%;
+    width: var(--d_height);
+    object-fit: cover;
+}
+#get_login
+{
+    color: #fff;
+    background-color: rgb(0, 81, 255);
+    padding: .5em 1em;
+    border: 2px solid rgb(0, 81, 255);
+    border-radius: 5px;
+}
+#get_login:hover{
+    color: rgb(0, 81, 255);
+    background-color: #fff;
+}
+.menu {
+    display: none;
+}
+@media (max-width:960px) {
+    header,
+    .head_img img{
+        height: var(--m_height);
+    }
+    .menu,
+    .menu svg{
+        display: block;
+    }
+    .nav_list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        box-shadow: 0 0 10px black;
+        transform: translateX(-452px);
+        max-width: 300px;
+        width: var(--drawer_width);
+        z-index: 3;
+        background: #fff;
+        flex-direction: column;
+        transition:transform 400ms;
+    }
+    .open{
+        transform: none;
+    }
+    .profile_img{
+        order: -1;
+        padding: 20px 0;
+        border-bottom: 1px solid black;
+    }
+    .profile_img img{
+        height: 100px;
+        width: 100px;
+    }
+    .nav_bar li{
+        margin: 0 1em;
+        margin-bottom: 20px;
+    }
+}
