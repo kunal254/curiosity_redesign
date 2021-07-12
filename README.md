@@ -2,14 +2,14 @@
  **Redesign of curiosity web app both front-end and back-end**
  
 ## Installation Details
- Clone REPO.  
+ Navigate to /var/www/html and then, Clone REPO.  
  ```bash
- username@hostname:/var/www/html$ git clone https://github.com/kunal254/curiosity_redesign.git  
+ sudo git clone https://github.com/kunal254/curiosity_redesign.git  
  ```
  
  Give permissions 
  ```bash
- username@hostname:/var/www/html$ sudo chmod -R 777 curiosity_redesign/
+ sudo chmod -R 777 curiosity_redesign/
  ```
  
  Setup database  
