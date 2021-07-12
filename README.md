@@ -35,9 +35,9 @@
    
 ## Screenshots
 ### home page :point_down:
-![home page](https://github.com/kunal254/curiosity_redesign/blob/main/screens/HOME%20CURIOSITY.png)
+<kbd>![home page](https://github.com/kunal254/curiosity_redesign/blob/main/screens/HOME%20CURIOSITY.png)</kbd>
 ### all courses :point_down:
-![all courses](https://github.com/kunal254/curiosity_redesign/blob/main/screens/All%20Courses.png)
+<kbd>![all courses](https://github.com/kunal254/curiosity_redesign/blob/main/screens/All%20Courses.png)</kbd>
 ### user profile :point_down:
 ![user profile](https://github.com/kunal254/curiosity_redesign/blob/main/screens/user%20profile.png)
 ### admin dashboard :point_down:
