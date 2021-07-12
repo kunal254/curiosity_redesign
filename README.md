@@ -28,10 +28,10 @@
    mysql -u 'start' -p curiosity < /var/www/html/curiosity_redesign/curiosity.sql  
    ```
    ### ERRORS
-   If you get an error while importing curiosity.sql into your database server
+   If you get an error while importing curiosity.sql into your database server, 
    change **utf8mb4_0900_ai_ci** To **utf8_general_ci** in curiosity.sql file (use VScode change all occurence)
 
-   ***See database for admin and user logins details, passwords are not encrypted.***  
+   ***See database for admin and user login details, passwords are not encrypted.***  
    
 ## Screenshots
 ### home page :point_down:
@@ -47,5 +47,5 @@
 
 ## task left 
 * optimise home.js
-* close mysqli connection $conn->close();
+* look for mysqli open connections, then $conn->close();
 * linked list lessons 
