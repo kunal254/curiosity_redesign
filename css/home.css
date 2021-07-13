@@ -36,7 +36,7 @@
 }
 
 .courses {
-    background-color: rgba(0, 81, 255, 0.835);
+    background: linear-gradient(45deg, #18cbdc, #17e5b0);
 }
 
 .courses_container {
@@ -54,9 +54,13 @@
     width: 100%;
 }
 
+.courses_card h3{
+    color: #fff;
+}
+
 .courses_card p {
     margin: 0;
-    color: #98ebeb;
+    color: rgb(241 241 241);
 }
 
 .courses_card a {
