@@ -29,7 +29,7 @@
    ```
    ### ERRORS
    If you get an error while importing curiosity.sql into your database server, 
-   change **utf8mb4_0900_ai_ci** To **utf8_general_ci** in curiosity.sql file (use VScode change all occurence)
+   change **utf8mb4_0900_ai_ci** To **utf8_general_ci** and **utf8mb4** To **utf8** in curiosity.sql file (use VScode change all occurence)
 
    ***See database for admin and user login details, passwords are not encrypted.***  
    
